@@ -423,6 +423,142 @@
         </li>
       </ul>
     </div>
+    <div class="newGoods">
+      <div class="newTitle">
+        <span>新品首发</span>
+        <span>更多<i class="iconfont icon-jiantou"></i></span>
+      </div>
+      <ul class="newList">
+        <li>
+          <div class="newImg">
+            <img src="../../../static/images/new/4.png" alt="">
+          </div>
+          <div class="goodName">
+            <span>男式全棉干爽型宽松短袖T恤&nbsp;</span>
+            <span class="price">￥449</span>
+          </div>
+          <div class="label">
+            <p>爆品</p>
+            <p>限时购</p>
+          </div>
+        </li>
+        <li>
+          <div class="newImg">
+            <img src="../../../static/images/new/5.png" alt="">
+          </div>
+          <div class="goodName">
+            <span>日式水洗棉格纹四件套 新款&nbsp;</span>
+            <span class="price">￥449</span>
+          </div>
+          <div class="label">
+          </div>
+        </li>
+        <li>
+          <div class="newImg">
+            <img src="../../../static/images/new/6.png" alt="">
+          </div>
+          <div class="goodName">
+            <span>日式拉面 4盒装&nbsp;</span>
+            <span class="price">￥449</span>
+          </div>
+          <div class="label">
+            <div class="vouchers">
+              <span>每满299减50券</span>
+              <img class="left" src="../../../static/images/personTro/7.png" alt="">
+              <img class="right" src="../../../static/images/personTro/8.png" alt="">
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="newImg">
+            <img src="../../../static/images/time/1.png" alt="">
+          </div>
+          <div class="goodName">
+            <span>网易智造N520除螨吸尘器&nbsp;</span>
+            <span class="price">￥449</span>
+          </div>
+          <div class="label">
+            <p>特价</p>
+          </div>
+        </li>
+        <li>
+          <div class="newImg">
+            <img src="../../../static/images/new/7.png" alt="">
+          </div>
+          <div class="goodName">
+            <span>网易智造N520除螨吸尘器&nbsp;</span>
+            <span class="price">￥449</span>
+          </div>
+          <div class="label">
+            <p>爆品</p>
+          </div>
+        </li>
+        <li>
+          <div class="newImg">
+            <img src="../../../static/images/time/1.png" alt="">
+          </div>
+          <div class="goodName">
+            <span>网易智造N520除螨吸尘器&nbsp;</span>
+            <span class="price">￥449</span>
+          </div>
+          <div class="label">
+            <p>限时购</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="fourBrand">
+      <ul class="brandList">
+        <li>
+          <div class="twoImg">
+            <img src="../../../static/images/four/1.png" alt="">
+            <img src="../../../static/images/four/2.png" alt="">
+          </div>
+          <div class="brandWord">
+            <h4>四件套定义家的温度</h4>
+            <div class="upNew">
+              <span>9.换季床品需换新</span>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="twoImg">
+            <img src="../../../static/images/four/3.png" alt="">
+            <img src="../../../static/images/four/4.png" alt="">
+          </div>
+          <div class="brandWord">
+            <h4>靠谱好物大阅兵</h4>
+            <div class="upNew">
+              <span>6大榜单vs18个品类</span>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="twoImg">
+            <img src="../../../static/images/four/5.png" alt="">
+            <img src="../../../static/images/four/6.png" alt="">
+          </div>
+          <div class="brandWord">
+            <h4>定义牛仔时代</h4>
+            <div class="upNew">
+              <span>360°伸展四面弹面料</span>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="twoImg">
+            <img src="../../../static/images/four/7.png" alt="">
+            <img src="../../../static/images/four/8.png" alt="">
+          </div>
+          <div class="brandWord">
+            <h4>严选材料图书馆</h4>
+            <div class="upNew">
+              <span>100%棉/蚕丝等好物</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
   </div>
 </template>
 <script>
@@ -732,7 +868,6 @@
   .brand
      border-top 30px solid #F5F5F5
      width 100%
-     height 685px
      box-sizing border-box
      padding 0 20px
      .brandTitle
@@ -747,7 +882,6 @@
          float left
          width 49.3%
          height 261px
-         background-color palegreen
          margin-top 8px
          position relative
          &:nth-child(2n)
@@ -1027,5 +1161,111 @@
                   left 50%
                   top 50%
                   transform translate(-50% ,-50%)
+
+  .newGoods
+    border-top 30px solid #F5F5F5
+    width 100%
+    height 860px
+    box-sizing border-box
+    padding 0 20px
+    .newTitle
+      height 100px
+      display flex
+      font-size 35px
+      align-items center
+      justify-content space-between
+    .newList
+      width 100%
+      height 598px
+      display flex
+      justify-content space-between
+      flex-wrap wrap
+      li
+        width 32%
+        height 354px
+        margin-bottom 14px
+        .newImg
+          width 100%
+          height 218px
+          background-color #F6F6F6
+          margin-bottom 20px
+          img
+            width 100%
+            height 100%
+        .goodName
+          line-height 30px
+          .price
+            color red
+        .label
+          color red
+          font-size 20px
+          margin-top 10px
+          p
+            float left
+            padding 2px 10px
+            border 2px solid red
+            border-radius 10px
+            margin-right 10px
+          .vouchers
+            width 170px
+            height 24px
+            display inline-block
+            background-color white
+            padding 2px 4px
+            border 1px solid red
+            position relative
+            text-align center
+            font-size 10px
+            margin-left 12px
+            .left
+              width 10%
+              height 30px
+              position absolute
+              left -7%
+              top -1px
+            .right
+              width 10%
+              height 30px
+              position absolute
+              right -7%
+              top -1px
+
+  .fourBrand
+    border-top 30px solid #F5F5F5
+    width 100%
+    box-sizing border-box
+    padding 0 20px
+    .brandList
+      height 554px
+      li
+        float left
+        width 49.3%
+        height 261px
+        background-color #F6F6F6
+        margin-top 8px
+        position relative
+        &:nth-child(2n)
+          margin-left 8px
+        .twoImg
+          display flex
+          margin-top 25%
+          img
+            width 50%
+            height 50%
+        .brandWord
+          width 100%
+          position absolute
+          left 50%
+          top 20px
+          transform translateX(-50%)
+          padding-left 15%
+          h4
+            font-size 33px
+            color #333
+            margin-bottom 5px
+          .upNew
+            font-size 27px
+            color #7F7F7F
+            margin-top 3px
 
 </style>
