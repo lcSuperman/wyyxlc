@@ -336,6 +336,93 @@
          </li>
        </ul>
     </div>
+    <div class="limitTime">
+      <div class="limitTitle">
+        <div class="leftTitle">
+          <span class="xsg">限时购</span>
+          <span class="time">00</span>
+          <span >:</span>
+          <span class="time">12</span>
+          <span >:</span>
+          <span class="time">01</span>
+        </div>
+        <span>更多<i class="iconfont icon-jiantou"></i></span>
+      </div>
+      <ul class="timeList">
+        <li>
+          <div class="timeImg">
+            <img src="../../../static/images/time/1.png" alt="">
+          </div>
+          <div class="timePrice">
+            <span class="sellPrice">￥239</span>
+            <div class="prePrice">
+              <span>￥400</span>
+              <div class="timeLine"></div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="timeImg">
+            <img src="../../../static/images/time/2.png" alt="">
+          </div>
+          <div class="timePrice">
+            <span class="sellPrice">￥239</span>
+            <div class="prePrice">
+              <span>￥400</span>
+              <div class="timeLine"></div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="timeImg">
+            <img src="../../../static/images/time/3.png" alt="">
+          </div>
+          <div class="timePrice">
+            <span class="sellPrice">￥239</span>
+            <div class="prePrice">
+              <span>￥400</span>
+              <div class="timeLine"></div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="timeImg">
+            <img src="../../../static/images/time/4.png" alt="">
+          </div>
+          <div class="timePrice">
+            <span class="sellPrice">￥239</span>
+            <div class="prePrice">
+              <span>￥400</span>
+              <div class="timeLine"></div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="timeImg">
+            <img src="../../../static/images/time/5.png" alt="">
+          </div>
+          <div class="timePrice">
+            <span class="sellPrice">￥239</span>
+            <div class="prePrice">
+              <span>￥400</span>
+              <div class="timeLine"></div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="timeImg">
+            <img src="../../../static/images/time/6.jpg" alt="">
+          </div>
+          <div class="timePrice">
+            <span class="sellPrice">￥239</span>
+            <div class="prePrice">
+              <span>￥400</span>
+              <div class="timeLine"></div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
   </div>
 </template>
 <script>
@@ -877,5 +964,68 @@
                 position absolute
                 right -7%
                 top -1px
+
+  .limitTime
+    border-top 30px solid #F5F5F5
+    width 100%
+    height 784px
+    box-sizing border-box
+    padding 0 20px
+    .limitTitle
+      height 100px
+      display flex
+      font-size 35px
+      align-items center
+      justify-content space-between
+      .leftTitle
+        .xsg
+          display inline-block
+          margin-right 20px
+        .time
+          display inline-block
+          font-size 26px
+          border 1px solid #000
+          padding 4px
+          background-color #000
+          border-radius 8px
+          color #fff
+
+
+    .timeList
+       width 100%
+       height 598px
+       display flex
+       justify-content space-between
+       flex-wrap wrap
+       li
+         width 32%
+         height 299px
+         margin-bottom 14px
+         .timeImg
+           width 100%
+           height 218px
+           background-color #F6F6F6
+           margin-bottom 20px
+           img
+              width 100%
+              height 100%
+         .timePrice
+            display flex
+            .sellPrice
+               font-size 30px
+               color red
+            .prePrice
+               font-size 25px
+               margin-left 10px
+               position relative
+               color #7f7f7f
+               .timeLine
+                  width 70px
+                  height 3px
+                  background-color #7f7f7f
+                  position absolute
+                  left 50%
+                  top 50%
+                  transform translate(-50% ,-50%)
 
 </style>
